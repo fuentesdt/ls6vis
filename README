@@ -1,0 +1,8 @@
+
+sbatch /share/doc/slurm/job.vnc -geometry 1680x1000
+
+squeue -u fuentes
+
+ssh -f -N -L xxxx:localhost:yyyy ls6.tacc.utexas.edu
+
+module load swr qt5 oneapi_rk paraview
