@@ -31,8 +31,8 @@
 #SBATCH -J vncserver                  # Job name
 #SBATCH -o vncserver.out              # Name of stdout output file (%j expands to jobId)
 #SBATCH -p development                # Queue name
-#SBATCH -N 1                          # Total number of nodes requested (68 cores/node)
-#SBATCH -n 1                          # Total number of mpi tasks requested
+#SBATCH -N 2                          # Total number of nodes requested (68 cores/node)
+#SBATCH -n 2                          # Total number of mpi tasks requested
 #SBATCH -t 02:00:00                   # Run time (hh:mm:ss) - 4 hours
 
 #--------------------------------------------------------------------------
