@@ -10,6 +10,7 @@ tail vncserver.out
 ssh -f -N -L xxxx:localhost:yyyy ls6.tacc.utexas.edu
 module load swr qt5 oneapi_rk paraview
 swr -p 1 paraview
+File -> connect -> auto
 ```
 
 Notice that the image is distributed across 2 nodes by the vtkProcessId.
